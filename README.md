@@ -2,44 +2,14 @@
 
 A full-stack Trello/Asana-like app built with **React + Vite** (frontend) and **FastAPI** (backend) using **Firebase Auth + Firestore**.
 
-## 🚀 Quick Start
-
-### Step 1 — Firebase Service Account Key
-
-1. Go to [Firebase Console](https://console.firebase.google.com) → Your project
-2. **Project Settings → Service Accounts → Generate new private key**
-3. Save the downloaded file as:
-   ```
-   backend/serviceAccountKey.json
-   ```
-
-### Step 2 — Enable Firestore & Auth
-
-In Firebase Console:
-- **Build → Firestore Database → Create database** (start in test mode)
-- **Build → Authentication → Sign-in method → Email/Password → Enable**
-
-### Step 3 — Run Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-```
-
-API docs available at: http://localhost:8000/docs
-
-### Step 4 — Run Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Open: http://localhost:5173
-
----
+Built a collaborative tool similar to Trello or Asana. 
+Users should be able to: 
+● Create group projects 
+● Assign tasks 
+● Comment and communicate within tasks 
+Full stack with auth system, project boards, task cards. 
+Backend to manage users, projects, tasks, comments. 
+Bonus: Add notifications and real-time updates using WebSockets.
 
 ## 🏗️ Architecture
 
